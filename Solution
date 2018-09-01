@@ -1,0 +1,24 @@
+answer = 0
+print ("Hello! I can sum any range of integers! Want to try me?")
+
+while True:
+	try:
+		low = int (input ("Let's sum from: "))
+	except ValueError:
+		print ("Ups! That is not an integer. Try again")
+		continue
+	else:
+		break
+while True:
+	try:
+		high = int (input ("To: "))
+	except ValueError:
+		print ("Ups! That is not an integer. Try again")
+		continue
+	else: 
+		break
+
+for procedure in list(range(low, high + 1)):
+	answer = answer + procedure
+
+print ("The sum of every number between " + str (low) + " and " + str (high) + " is: " + str (answer))
