@@ -1,0 +1,2 @@
+# WSQ04_SumOfNumbers
+Write a program that asks for a range of integers and then prints the sum of the numbers in that range (inclusive).  You can use a formula to calculate this of course but what we want you to do here is practice using a loop to do repetitive work.  For example, the sum from 6 to 10 would be 0 + 6 + 7 + 8 + 9 + 10.  Notice our sum starts with zero (why?) and then we add each number in the range provided by the user. Just for fun, what is the mathematical formula to do this calculation?
